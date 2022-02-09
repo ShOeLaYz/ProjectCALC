@@ -1,6 +1,4 @@
-# OnlineCalc
-A Calculator In The Web With Many More Features Than The JustCalculator
+# OnnCalculator
 
-# Status
-Project Still In **Development** 
-*Release Will Be Delayed*
+OnCalc By Shoelaze Media Team
+Copyright (c) Shoelaze Media Team 2022

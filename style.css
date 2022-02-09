@@ -1,0 +1,84 @@
+body {
+  overflow: hidden;
+  background: linear-gradient(#f4f4ed, white);
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  border: 2px solid black;
+  width: 8000px;
+  margin: auto;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 15px 15px 20px 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#userInput {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px 5px;
+  background-color: whitesmoke;
+  text-align: right;
+  direction: ltr;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  width: 20%;
+  height: 45px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  background: lime;
+}
+.btnEqual {
+  width: 70.69%;
+  height: 45px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  background: lime;
+}
+.btn:hover,
+.btnEqual:hover {
+  background-color: rgb(0, 255, 234);
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 20%;
+  }
+}
+
+.cookie {
+  width: 200px;
+  height: 200px;
+}
+
+.cbtn {
+  width: 20%;
+  height: 45px;
+  border-radius: 1px;
+  border: 2px;
+  outline: 4px;
+  margin-top: 3px;
+  background: chocolate;
+}
+
+.cicon {
+  width: 170px;
+  height: 170px;
+}
